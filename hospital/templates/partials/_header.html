@@ -1,0 +1,19 @@
+{% load static %}
+
+{%block content %}
+
+<div class="header">
+    <div class="logo">
+        <h1>Nonu Hospital</h1>
+    </div>
+    <div class="header-links">
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'department' %}">Departments</a></li>
+            <li><a href="{% url 'doctors' %}">Doctors</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
